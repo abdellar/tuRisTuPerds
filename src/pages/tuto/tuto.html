@@ -1,0 +1,57 @@
+<!--<ion-header no-shadow>-->
+
+  <!--<ion-navbar>-->
+    <!--<ion-buttons end *ngIf="showSkip">-->
+      <!--<button ion-button (click)="startApp()" color="primary">{{ 'TUTORIAL_SKIP_BUTTON' | translate}}</button>-->
+    <!--</ion-buttons>-->
+  <!--</ion-navbar>-->
+
+<!--</ion-header>-->
+
+
+<ion-content scrollbar-hide>
+
+  <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)" class="backGround">
+
+    <ion-slide>
+
+      <h2>{{'CHOOSE_LANGUAGE'|translate}}</h2>
+
+      <div class="languageDiv" >
+        <ion-list radio-group (ionChange)="onChange($event)">
+          <ion-item *ngFor="let language of languages" class="item-radio-style">
+            <span class="flag-icon flag-icon-gr" ></span>
+            <ion-label> {{language.language}} </ion-label>
+            <ion-radio value= {{language.value}} [disabled]=" language.value == 'en' " ></ion-radio>
+          </ion-item>
+        </ion-list>
+      </div>
+
+      <button ion-button icon-end outline (click)="nextSlide()" class ="buttonTuto">
+      {{ 'TUTORIAL_NEXT_BUTTON' | translate}}
+      <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+
+    </ion-slide>
+
+    <ion-slide *ngFor="let slide of slides" padding >
+      <!--<img [src]="slide.image" class="slide-image" />-->
+      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+      <p [innerHTML]="slide.description"></p>
+      <button ion-button icon-end large clear (click)="startApp()" color="primary">
+        {{ 'TUTORIAL_SKIP_BUTTON' | translate}}
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h2>{{ 'TUTORIAL_SLIDE4_TITLE' | translate }}</h2>
+      <button ion-button icon-end large clear (click)="startApp()">
+        {{ 'TUTORIAL_CONTINUE_BUTTON' | translate }}
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

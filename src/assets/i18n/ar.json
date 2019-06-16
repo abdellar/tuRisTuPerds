@@ -1,0 +1,26 @@
+{
+  "CHOOSE_LANGUAGE": "الرجاء اختيار لغتك",
+  "LANGUAGE": "لغة",
+
+  "TUTORIAL_NEXT_BUTTON": "التالي",
+  "TUTORIAL_SKIP_BUTTON": "تخطى",
+  "TUTORIAL_CONTINUE_BUTTON": "استمر",
+
+  "TUTORIAL_SLIDE1_TITLE": "مرحبا بكم في لعبة <br><b>ضحك، تخسر</b>",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "",
+
+  "TUTORIAL_SLIDE2_TITLE": "",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "",
+
+  "TUTORIAL_SLIDE3_TITLE": "",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "",
+
+  "TUTORIAL_SLIDE4_TITLE": "",
+
+  "BACK_BUTTON_TEXT": "رجوع",
+
+  "DONE_BUTTON": "انهاء",
+  "CANCEL_BUTTON": "الغاء",
+  "DELETE_BUTTON": "حذف"
+
+}

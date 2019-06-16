@@ -1,0 +1,22 @@
+{
+  "CHOOSE_LANGUAGE": "Veuillez choisir votre langue",
+  "LANGUAGE": "language",
+
+  "TUTORIAL_NEXT_BUTTON": "Suivant",
+  "TUTORIAL_SKIP_BUTTON": "Skip",
+  "TUTORIAL_CONTINUE_BUTTON": "Continue",
+
+  "TUTORIAL_SLIDE1_TITLE": "Bienvenue dans le jeu <b> Tu ris : tu perds ! </b>",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "Contient +1000 blagues qui vont vous faire rigoler",
+
+  "TUTORIAL_SLIDE2_TITLE": "Régles du jeu",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Deux joueurs s'affrontent face à face. À tour de rôle, les joueurs génèrent et lisent une blague à leur adversaire.",
+
+  "TUTORIAL_SLIDE3_TITLE": "But du jeu",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Le but du jeu est de marquer des points contre son adversaire, pour cela il faut respecter ces trois régles : <br> <ul><li>Si un joueur rit, l'adversaire gagne un point</li> <li>Si les deux joueurs rient, les deux encaissent un point</li><li>Si personne ne rit, le jeu continue et le tour passe à l'autre joueur</li></ul>",
+
+  "TUTORIAL_SLIDE4_TITLE": "Prêt pour Jouer?",
+
+  "BACK_BUTTON_TEXT": "Retour"
+
+}
